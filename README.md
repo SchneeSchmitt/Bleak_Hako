@@ -4,18 +4,18 @@
 
 
 
-Obama approved Minecraft utility mod for Fabric 1.18 and 1.19.
 
-> Website: https://bleachhack.org/  
-> Discord: https://bleachhack.org/discord
+
+  
+
 
 ## TODO
-<details>
- Skid ares client elytra flight
+
+Skid ares client elytra flight
 
 
 
-</details>
+
 
 ## Installation
 ### For normal people
