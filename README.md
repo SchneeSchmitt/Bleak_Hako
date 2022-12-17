@@ -12,7 +12,7 @@ Imagine modify a client without any Java knowledge lol
 ## TODO
 
 Skid ares client elytra flight
-
+Skid lb nextgen plugin detecter
 
 
 
