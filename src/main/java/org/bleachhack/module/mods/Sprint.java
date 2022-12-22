@@ -30,5 +30,10 @@ public class Sprint extends Module {
 				mc.player.input.movementForward > 0 && 
 				(mc.player.input.movementSideways != 0 ||mc.player.input.movementForward > 0) &&
 				!mc.player.isSneaking());
+		
+		
+		if (packet is PacketEntityActionC0BPacket)
+			if (packet.action == PacketEntityActionC0BPacket.Action.STOP_SPRINTING)
+			     mc.thePlayer.setSprinting(true)
 	}
 }
