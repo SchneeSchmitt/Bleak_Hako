@@ -31,8 +31,13 @@ public class Sprint extends Module {
 				(mc.player.input.movementSideways != 0 ||mc.player.input.movementForward > 0) &&
 				!mc.player.isSneaking());
 		
-		if (packet is PacketEntityActionC0BPacket)
-			if (packet.action == PacketEntityActionC0BPacket.Action.STOP_SPRINTING)
-			     mc.thePlayer.setSprinting(true)
+	@BleachSubscribe
+	public void readPacket(EventPacket.Read event) {
+		if (mc.player == null)
+			return;
+
+		if (event.getPacket() instanceof PacketEntityActionC0BPacket)
+			if (event.getPacket() instanceof PacketEntityActionC0BPacket.Action.STOP_SPRINTING)
+			     mc.thePlayer.setSprinting(true);
 	}
 }
