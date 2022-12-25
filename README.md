@@ -15,6 +15,12 @@ Skid lantern rotation module
 
 Auto fill (planning)
 
+##Far plans
+
+Rewrite killaura for better bypass
+
+Target strafe
+
 ## Installation
 ### For normal people
 
