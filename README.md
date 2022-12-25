@@ -9,6 +9,10 @@ Skid ares client elytra flight
 
 Skid lb nextgen plugin detecter
 
+Multi direction sprint from lantern
+
+Auto fill (planning)
+
 ## Installation
 ### For normal people
 
