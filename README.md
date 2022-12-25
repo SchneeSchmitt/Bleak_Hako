@@ -11,6 +11,8 @@ Skid lb nextgen plugin detecter
 
 Multi direction sprint from lantern
 
+Skid lantern rotation module
+
 Auto fill (planning)
 
 ## Installation
