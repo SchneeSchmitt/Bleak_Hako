@@ -5,7 +5,7 @@ Lantern (keepsprint)
 
 ## TODO
 
-Skid ares client elytra flight
+Skid ares/meteor client elytra flight
 
 Skid lb nextgen plugin detecter
 
