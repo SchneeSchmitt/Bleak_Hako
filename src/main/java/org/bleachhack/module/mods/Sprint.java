@@ -8,6 +8,7 @@
  */
 package org.bleachhack.module.mods;
 
+import org.bleachhack.event.events.EventPacket;
 import org.bleachhack.event.events.EventTick;
 import org.bleachhack.eventbus.BleachSubscribe;
 import org.bleachhack.module.Module;
