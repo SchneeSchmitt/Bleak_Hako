@@ -65,8 +65,8 @@ Generate the needed files for your preferred IDE.
 
   Use [this link](https://fabricmc.net/wiki/tutorial:setup) for more information.
   It should be pretty similar to the eclipse and idea setup.
-  
-###### *To get the source code of Pre-1.17 versions, use [this](https://github.com/BleachDev/BleachHack/tree/de55562e94) commit and select the folder of the version you want.*
+
+
 
 ## License
 
