@@ -13,6 +13,9 @@ Multi direction sprint from lantern
 
 Skid lantern rotation module
 
+Skid seedray from
+https://github.com/Exterminate5573/BleachHack/tree/1.18.2
+
 Auto fill (planning)
 
 ## Far plans
