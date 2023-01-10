@@ -4,11 +4,11 @@ on:
 
   push:
 
-    branches: [ master ]
+    branches: [ 1.19.2 ]
 
   pull_request:
 
-    branches: [ master ]
+    branches: [ 1.19.2 ]
 
 jobs:
 
