@@ -14,6 +14,9 @@ import org.bleachhack.eventbus.BleachSubscribe;
 import org.bleachhack.module.Module;
 import org.bleachhack.module.ModuleCategory;
 import org.bleachhack.setting.module.SettingToggle;
+import net.minecraft.network.packet.c0b.play.PacketEntityActionC0BPacket;
+;
+;
 
 public class Sprint extends Module {
 
@@ -29,9 +32,8 @@ public class Sprint extends Module {
 
 		mc.player.setSprinting(
 				mc.player.input.movementForward > 0 && 
-				(mc.player.input.movementSideways != 0 ||mc.player.input.movementForward > 0) &&
-				!mc.player.isSneaking());
-		
+				(mc.player.input.movementSideways != 0 ||mc.player.input.movementForward > 0));}
+
 	@BleachSubscribe
 	public void readPacket(EventPacket.Read event) {
 		if (mc.player == null)
@@ -39,6 +41,6 @@ public class Sprint extends Module {
 
 		if (event.getPacket() instanceof PacketEntityActionC0BPacket)
 			if (event.getPacket() instanceof PacketEntityActionC0BPacket.Action.STOP_SPRINTING)
-			     mc.thePlayer.setSprinting(true);
+			     mc.player.setSprinting(true);
 	}
 }
