@@ -60,6 +60,8 @@ Generate the needed files for your preferred IDE.
   In idea click File > Open.
   Select build.gradle in the main folder.
   Select Open as Project.
+  
+  *Note: run the command in the command zone*
 
 ***Other IDE's***
 
