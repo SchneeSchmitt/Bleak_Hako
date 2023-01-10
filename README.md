@@ -1,4 +1,7 @@
 Imagine modify a client without any Java knowledge lol
+Remember to update the sprint.java
+
+
 ## Skidded from:
 
 Lantern (keepsprint)
