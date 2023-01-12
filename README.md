@@ -4,7 +4,7 @@ Remember to update the sprint.java
 
 ## Skidded from:
 
-Lantern (keepsprint)
+~~Lantern (keepsprint)~~ (Removed in commit 41cbbde)
 
 ## TODO
 
