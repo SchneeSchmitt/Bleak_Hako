@@ -32,15 +32,6 @@ public class Sprint extends Module {
 
 		mc.player.setSprinting(
 				mc.player.input.movementForward > 0 && 
-				(mc.player.input.movementSideways != 0 ||mc.player.input.movementForward > 0));}
-
-	@BleachSubscribe
-	public void readPacket(EventPacket.Read event) {
-		if (mc.player == null)
-			return;
-
-		if (event.getPacket() instanceof PacketEntityActionC0BPacket)
-			if (event.getPacket() instanceof PacketEntityActionC0BPacket.Action.STOP_SPRINTING)
-			     mc.player.setSprinting(true);
+				(mc.player.input.movementSideways != 0 ||mc.player.input.movementForward > 0));
 	}
 }
