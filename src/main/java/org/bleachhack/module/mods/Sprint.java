@@ -14,7 +14,6 @@ import org.bleachhack.eventbus.BleachSubscribe;
 import org.bleachhack.module.Module;
 import org.bleachhack.module.ModuleCategory;
 import org.bleachhack.setting.module.SettingToggle;
-import net.minecraft.network.packet.c0b.play.PacketEntityActionC0BPacket;
 ;
 ;
 
