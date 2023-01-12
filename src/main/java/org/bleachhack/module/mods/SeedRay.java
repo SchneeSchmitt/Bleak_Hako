@@ -27,11 +27,13 @@ import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.util.math.MatrixStack;
 import net.minecraft.client.world.ClientWorld;
 import net.minecraft.tag.TagKey;
+import net.minecraft.text.LiteralText;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.*;
 import net.minecraft.util.registry.Registry;
 import net.minecraft.world.Heightmap;
 import net.minecraft.world.chunk.ChunkStatus;
+import net.minecraft.world.gen.random.ChunkRandom;
 
 //Code by KiwiClient, Implemented by Exterminate
 public class SeedRay extends Module {
