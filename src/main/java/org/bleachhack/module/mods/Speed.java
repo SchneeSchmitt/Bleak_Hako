@@ -29,7 +29,7 @@ public class Speed extends Module {
 				new SettingMode("Mode", "StrafeHop", "Strafe", "OnGround", "MiniHop", "Bhop").withDesc("Speed mode."),
 				new SettingSlider("Strafe", 0.15, 5.0, 0.27, 2).withDesc("Strafe speed."),
 				new SettingSlider("OnGround", 0.1, 10, 2, 1).withDesc("OnGround speed."),
-				new SettingSlider("MiniHop", 0.1, 30, 2, 1).withDesc("MiniHop speed."),
+				new SettingSlider("MiniHop", 0.1, 25, 2, 1).withDesc("MiniHop speed."),
 				new SettingSlider("Bhop", 0.1, 80, 2, 1).withDesc("Bhop speed."),
 				new SettingToggle("NoInertia", false).withDesc("Prevents you from moving forcefully."));
 	}
