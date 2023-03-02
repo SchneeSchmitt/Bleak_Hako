@@ -24,7 +24,7 @@ public class Sprint extends Module {
 	public Sprint() {
 		super("Sprint", KEY_UNBOUND, ModuleCategory.MOVEMENT, "Makes the player automatically sprint.",
 				new SettingToggle("HungerCheck", false).withDesc("Checks that you actually have enough hunger to sprint."));
-		                new SettingToggle("KeepSprint", false).withDesc("Prevent you stop sprinting when you are using killaura."););
+		                new SettingToggle("KeepSprint", false).withDesc("Prevent you stop sprinting when you are using killaura.");;
 	}
 	
         //Hunger check
@@ -40,12 +40,9 @@ public class Sprint extends Module {
 		
 		if (!mc.player.isSprinting()) {
 		        mc.player.networkHandler.sendPacket(new ClientCommandC2SPacket(mc.player, ClientCommandC2SPacket.Mode.START_SPRINTING));
-	        }
-		
-	//Keepsprint, main code in line 43
-		public void ;onTick(EventTick event); {
-		if (getSetting(0).asToggle().getState())
-			
+		} else {
+			return;
+			}	
 		
 	}
-}}
+}
