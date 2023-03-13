@@ -15,7 +15,7 @@ import org.bleachhack.module.Module;
 import org.bleachhack.module.ModuleCategory;
 import org.bleachhack.setting.module.SettingToggle;
 
-import net.minecraft.network.packet.c2s.play.ClientCommandC2SPacket;
+import net.minecraft.network.packet.c2s.play.ClientCommandC2SPacket
 ;
 ;
 
@@ -36,7 +36,7 @@ public class Sprint extends Module {
 		//Main part
 		mc.player.setSprinting(
 				mc.player.input.movementForward > 0 && 
-				(mc.player.input.movementSideways != 0 ||mc.player.input.movementForward > 0));
+				(mc.player.input.movementSideways != 0 ||mc.player.input.movementForward > 0))
 		
 		if (!mc.player.isSprinting()) {
 		        mc.player.networkHandler.sendPacket(new ClientCommandC2SPacket(mc.player, ClientCommandC2SPacket.Mode.START_SPRINTING));
