@@ -71,7 +71,7 @@ Generate the needed files for your preferred IDE.
   Use [this link](https://fabricmc.net/wiki/tutorial:setup) for more information.
   It should be pretty similar to the eclipse and idea setup.
 
-
+test
 
 ## License
 
